@@ -52,7 +52,7 @@ python jobResumeParser.py
 
 - Processing: the text is extracted and sent to ChatGPT, which parses it into sections like Skills, Experience, Job requirements, Education, etc
 
-- Token Tracking: the script logs token usage including completion tokens, prompt tokens, and total tokens.
+- Token Tracking: the script logs token usage including completion tokens, prompt tokens, and total tokens
 
 - Output: a JSON file is generated per resume / job offer with the parsed information
 
