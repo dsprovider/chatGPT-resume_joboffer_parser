@@ -1,6 +1,6 @@
 📄🚀 Resume & Job Offer Parser with ChatGPT
 
-Welcome to Resume & Job Offer Parser, a Python tool that processes PDF documents like resumes and job offers, extracts text, and uses ChatGPT to parse them into structured sections as per your custom prompt instructions! 🧠✨
+Welcome to Resume & Job Offer Parser, a Python tool that processes resumes and job offers in PDF format, extracts text, and uses ChatGPT to parse them into structured sections as per your custom prompt instructions! 🧠✨
 
 
 📌 Features
