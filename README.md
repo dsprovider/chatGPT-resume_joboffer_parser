@@ -9,6 +9,8 @@ Welcome to Resume & Job Offer Parser, a Python tool that processes PDF documents
 
 - AI-Powered Parsing: utilize ChatGPT API to parse extracted text into structured sections like Skills, Experience, Job requirements, Education, etc
 
+- Token Usage Tracking: monitor your ChatGPT API usage by recording token consumption (completion, prompt, and total tokens)
+
 - JSON Export: export the processed information into JSON files for further integration and analysis
 
 - Highly Customizable: tailor the parsing through custom prompt instructions, making it flexible for various use cases
@@ -19,6 +21,8 @@ Welcome to Resume & Job Offer Parser, a Python tool that processes PDF documents
 - PDF Processing: the tool reads PDF files (resumes and job offers) using the PyMuPDF library to extract their text content
 
 - ChatGPT Parsing: the extracted text is then sent to ChatGPT, which parses it based on the prompt instructions provided
+
+- Token Tracking: the script records the token usage for each ChatGPT API call, including completion tokens, prompt tokens, and total tokens.
 
 - Structured Output: parsed information is exported into JSON files, organized into the specified sections
 
@@ -47,6 +51,8 @@ python jobResumeParser.py
 - Input: folder path containig your resumes or job offers in PDF format
 
 - Processing: the text is extracted and sent to ChatGPT, which parses it into sections like Skills, Experience, Job requirements, Education, etc
+
+- Token Tracking: the script logs token usage including completion tokens, prompt tokens, and total tokens.
 
 - Output: a JSON file is generated per resume / job offer with the parsed information
 
