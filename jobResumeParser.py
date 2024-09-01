@@ -9,9 +9,9 @@ import openai
 from openai import OpenAI
 
 
-OPENAI_API_KEY="sk-proj-IUFCBJlSK8LJfJ7uQjoZT3BlbkFJeUVnpTEHorsVspt1GLee"
+OPENAI_API_KEY="<api_key_here>"
 openai.api_key=OPENAI_API_KEY
-print(openai.api_key)
+# print(openai.api_key)
 
 # ===================================================================================================
 
@@ -90,7 +90,7 @@ def process_folder(in_folder, client):
 
                     response_content = response.choices[0].message.content
                     json_response = json.loads(response_content)
-                    pprint.pprint(json_response)
+                    # pprint.pprint(json_response)
 
                     usage = response.usage
                     completion_tokens = usage.completion_tokens
